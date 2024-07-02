@@ -1,0 +1,63 @@
+.navbar {
+  background-color: white;
+  padding: 10px 20px;
+  border-bottom: 1px solid #ddd;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.navbar-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-orange {
+  color: #ff6767;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.logo-black {
+  color: black;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar-search {
+  flex: 1;
+  max-width: 500px;
+  margin: 0 20px;
+}
+
+.search-button {
+  background-color: #ff6767;
+  border: none;
+  color: white;
+}
+
+.search-button .anticon {
+  font-size: 16px;
+}
+
+.navbar-date {
+  text-align: right;
+}
+
+.date-day {
+  font-size: 14px;
+  color: black;
+}
+
+.date-full {
+  font-size: 16px;
+  color: black;
+}

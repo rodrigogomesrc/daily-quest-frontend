@@ -1,0 +1,26 @@
+.custom-menu {
+  background-color: #ff6767;
+  color: white;
+  position: fixed;
+  top: 60px;
+  left: 0;
+  width: 260px;
+  height: calc(100vh - 60px);
+  overflow: auto;
+}
+
+.custom-menu .ant-menu-item {
+  color: white;
+}
+
+.custom-menu .ant-menu-item-selected {
+  background-color: white;
+  color: #ff6767;
+}
+.custom-menu .ant-menu-item-selected :hover {
+  color: #ff6767 !important;
+}
+
+.custom-menu .ant-menu-item:hover {
+  color: white !important;
+}

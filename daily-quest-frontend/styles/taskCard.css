@@ -1,0 +1,61 @@
+.task-card {
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 10px;
+  width: 100%;
+  max-width: 350px;
+  border: 1px solid #a1a3ab;
+  position: relative;
+}
+
+.status-circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 3px solid;
+  background-color: transparent;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.task-card-content {
+  display: flex;
+  align-items: flex-start;
+  padding: 10px;
+}
+
+.task-image {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.task-info {
+  flex: 1;
+}
+
+.task-description {
+  color: #595959;
+}
+
+.task-details {
+  margin-top: 2px;
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.task-details p {
+  margin: 0;
+}
+
+.detail-label {
+  color: #333;
+}
+
+.created-at {
+  color: #a0a0a0;
+}
